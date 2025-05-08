@@ -1,0 +1,8 @@
+# Custom theme from Streamlit blog post: https://blog.streamlit.io/introducing-theming/
+[theme]
+base="dark"
+primaryColor="#00c0ff"
+backgroundColor="#0e1117"
+secondaryBackgroundColor="#262730"
+textColor="#ffffff"
+font="sans serif"
