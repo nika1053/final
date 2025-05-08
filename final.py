@@ -31,7 +31,7 @@ This dashboard allows you to explore all airports across six New England states.
 # [DA1] Load & clean data
 @st.cache_data
 def load_data():
-    df = pd.read_csv("C:/Users/hakob/OneDrive - Bentley University/PythonProject6/airports.csv")
+    df = pd.read_csv("airports.csv")
     df = df.dropna(subset=["latitude_deg", "longitude_deg", "iso_region", "type", "elevation_ft", "name"])
     df = df[df["iso_region"].isin(["US-MA", "US-CT", "US-RI", "US-NH", "US-VT", "US-ME"])]
     return df
